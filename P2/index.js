@@ -1,10 +1,5 @@
 console.log("Ejecutando JS...");
 
-display = document.getElementById("display")
-suma = document.getElementById("suma")
-igual = document.getElementById("igual")
-clear = document.getElementById("clear")
-
 //Declaramos las variables
   var num1 = 0;
   var num2 = 0;
@@ -39,7 +34,7 @@ clear = document.getElementById("clear")
 //Funcion para realizar operaciones
   function operar(valor){
     if (num1 == 0){
-        num1 = parseFloat(document.getElementById("valor_numero").value);
+        num1 = parseFloat(document.getElementById("display").value);
     }
     num2 = parseFloat(num1);
     num1= 0;
@@ -47,3 +42,39 @@ clear = document.getElementById("clear")
 }
 
 //Funcion es igual
+/*
+	suma = 1
+	resta = 2
+	multiplicacion = 3
+	division = 4
+	potencia = 5
+*/
+
+  function esIgual(){
+      num1 = parseFloat(num1);
+      switch (opera){
+          case 1:
+              num1 += num2;
+          break;
+          case 2:
+              num1 = num2 - num1;
+          break;
+          case 3:
+              num1 *= num2;
+          break;
+          case 4:
+              num1 = num2 / num1;
+          break;
+          case 5:
+              num1 = Math.pow(num2, num1);
+          break;
+      }
+      refrescar();
+      num2 = parseFloat(num1);
+      num1 = 0;
+  }
+
+//Funcion refrescar
+function refrescar(){
+            document.getElementById("valor_numero").value = num1;
+        }
