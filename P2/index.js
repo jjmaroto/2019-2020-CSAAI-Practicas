@@ -76,5 +76,5 @@ console.log("Ejecutando JS...");
 
 //Funcion refrescar
 function refrescar(){
-            document.getElementById("valor_numero").value = num1;
+            document.getElementById("display").value = num1;
         }
