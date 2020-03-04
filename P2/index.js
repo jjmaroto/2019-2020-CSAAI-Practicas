@@ -10,7 +10,7 @@ console.log("Ejecutando JS...");
     if(num1==0 && num1 !=='0.'){
       num1 = numero;
     }else{
-      num1 = numero;
+      num1 += numero;
     }
     refrescar();
   }
@@ -19,7 +19,7 @@ console.log("Ejecutando JS...");
     if(num1 == 0) {
       num1 = '0.';
   } else if(num1.indexOf('.') == -1) {
-      num1 += '.';
+      num1+= '.';
   }
   refrescar();
 }
@@ -77,4 +77,6 @@ console.log("Ejecutando JS...");
 //Funcion refrescar
 function refrescar(){
             document.getElementById("display").value = num1;
+            //document.getElementById("display").value = opera;
+            //document.getElementById("display").value = num2;
         }
