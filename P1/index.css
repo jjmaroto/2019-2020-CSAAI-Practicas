@@ -1,6 +1,74 @@
-*{
+/*----------LAYOUT----------*/
+.main-container{
+  display: flex;
+  width: 1200px;
+}
+
+
+/*----------GENERAL-------*/
+ul {
+  list-style-type: none;
+}
+
+/*--------ASIDE-------*/
+aside{
+  background-color: #647087;
+  width: 30%;
+  margin-right: 3%;
+}
+aside *{
+  color: white;
+}
+aside h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+aside section h2:first-child{
+  border-bottom: 2px solid white;
+}
+#profile-pic img{
+  border-radius: 50%;
+}
+/*--------MAIN-------*/
+main section > h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.hero{
+  background-color: #EDC0AF;
+  box-shadow: 2px 2px 40px 1px #647087 inset;
+}
+.hero h2{
+  color: white;
+  border-top: 2px solid white;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.sobre-mi{
+  background-color: #F7DDC3;
+}
+.sobre-mi h2 {
+  background-color: white;
+}
+article h3 ,
+article h4{
+  font-weight: bold;
+}
+article ul {
+  list-style-type: square;
+}
+/*Referencias*/
+.referencias{
+  display: flex;
+}
+
+
+/**{
   color: blue;
 }
 p {
   color: red;
+}
+.bonito{
+  background-color: lightblue;
 }
