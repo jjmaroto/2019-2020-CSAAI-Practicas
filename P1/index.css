@@ -9,6 +9,13 @@
 ul {
   list-style-type: none;
 }
+.clear{
+  clear: both;
+}
+h1,
+h2{
+  text-transform: uppercase;
+}
 
 /*--------ASIDE-------*/
 aside{
@@ -37,12 +44,16 @@ main section > h2{
 .hero{
   background-color: #EDC0AF;
   box-shadow: 2px 2px 40px 1px #647087 inset;
+  padding: 15% 0 ;
+  text-align: center;
+}
+.hero h1{
+  letter-spacing: 10px;
 }
 .hero h2{
   color: white;
   border-top: 2px solid white;
-  text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: 10px;
 }
 .sobre-mi{
   background-color: #F7DDC3;
@@ -50,8 +61,11 @@ main section > h2{
 .sobre-mi h2 {
   background-color: white;
 }
-article h3 ,
-article h4{
+.sobre-mi p{
+  line-height: 1.5em;
+  padding: 5px;
+}
+article h3{
   font-weight: bold;
 }
 article ul {
@@ -60,7 +74,44 @@ article ul {
 /*Referencias*/
 .referencias{
   display: flex;
+  flex-wrap: wrap;
+  background-color: #F7DDC3;
 }
+.referencias article{
+  width: 50%;
+  text-align: center;
+}
+ /*--DL--*/
+ dl{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ dt,
+ dd{
+   line-height: 1.5em;
+   border-top: 1px solid white;
+ }
+ dt{
+   font-weight: bolder;
+   clear: left;
+   width: 30%;
+   float: left;
+ }
+ dd{
+   clear: right;
+   width: 50%;
+   float: left;
+   margin: 0;
+ }
+ dt:last-of-type,
+ dd:last-of-type{
+   border-bottom: 1px solid white;
+ }
+
+ dt, dd{
+   flex-basis: : 40%;
+   margin: 0;
+ }
 
 
 /**{
@@ -71,4 +122,9 @@ p {
 }
 .bonito{
   background-color: lightblue;
+}
+/*METER*/
+meter{
+  display: block;
+  width: 80%;
 }
