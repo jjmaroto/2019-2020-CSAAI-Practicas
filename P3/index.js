@@ -328,6 +328,3 @@ function main(){
     }
   } //-- FIN ONCLICK;
 }
-
-  //-- ESCACIO: 32, FLECHA ARRIBA: 38, FLECHA ABAJO: 40
-  //-- Para consultar más: https://keycode.info
