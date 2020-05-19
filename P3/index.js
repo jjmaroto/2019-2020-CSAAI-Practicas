@@ -304,9 +304,9 @@ function main(){
         if (score.score1 == points || score.score2 == points){
 
           if (score.score1 == points){
-            alert("Player1 WINS - Congratulations!")
+            alert("GANADOR JUGADOR 1")
           } else if (score.score2 == points){
-            alert("Player2 WINS - Congratulations!")
+            alert("GANADOR JUGADOR 2")
           }
 
           clearInterval(timer);

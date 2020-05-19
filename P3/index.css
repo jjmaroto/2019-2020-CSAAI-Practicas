@@ -1,8 +1,10 @@
-body {background:#8ba987 url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReViJId77oN0kDsSn6A8RfZd1k2hAYX8EPCY0YlJT7K28T04A1&usqp=CAU') 100% ; border: 0;}
+
+body {
+  background-color: black;
 }
 
 #display {
-  background-color: lightgray;
+  background-color: blue;
   display: block;
   overflow: auto;
   margin: 0 auto;
@@ -14,13 +16,13 @@ body {background:#8ba987 url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3A
   text-align: center;
   color: white;
   font-size: 15px;
-  background: black;
+  background: blue;
   margin: 0 0 10px;
 }
 
 button {
   color: white;
-  background-color: lightgray;
+  background-color: pink;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 10px;
@@ -62,8 +64,3 @@ a:active {
   text-align: center;
   font-family: optima, sans-serif;
 }
-
-.end {
-  color: white;
-  padding: 10px;
-  text-align: center;
