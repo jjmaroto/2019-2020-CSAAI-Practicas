@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel=StyleSheet href="./index.css" type="text/css">
+    <title> Mi realizador de TV </title>
+    <script src= "index.js">
+
+    </script>
+  </head>
+  <body onload="main();">
+    <h1> <i> Mi realizador de TV </i> </h1>
+    <hr>
+    <div>
+      <!-- VIDEO 1 -->
+      <video id="video1" autoplay loop>
+        <source src='video1.mov'/>
+      </video>
+      <!-- VIDEO 2 -->
+      <video id="video2" autoplay loop>
+        <source src='video2.mp4'/>
+      </video>
+      <!-- VIDEO 3 -->
+      <video id="video3" autoplay loop>
+        <source src='video3.mov'/>
+      </video>
+    </div>
+
+    <div >
+      <!-- BOTONES -->
+      <button id="play1"> VIDEO 1 </button>
+      <button id="play2"> VIDEO 2 </button>
+      <button id="play3"> VIDEO 3 </button>
+      <br>
+    </div>
+        <button id="stop">Parar</button>
+    <div>
+      <!-- VIDEO del REALIZADOR -->
+      <video id="realizador" autoplay loop muted ></video>
+    </div>
+    <br>
+  </body>
+</html>

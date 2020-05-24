@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  float: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: optima, sans-serif;
+  font-size: 20px;
+  color: gray;
+}
+
+video {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+#realizador {
+  text-align: center;
+  float:center;
+  width: 60%;
+  margin: auto;
+}
+
+
+button {
+  font-family: optima, sans-serif;
+}
